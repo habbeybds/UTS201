@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.latihan_jumri"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.latihan_jumri.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.latihan_jumri.ContactDetails"
+            android:label="@string/title_activity_contact_details"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.latihan_jumri.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.latihan_jumri.ContactAdd"
+            android:label="@string/title_activity_contact_add"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.latihan_jumri.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.latihan_jumri.ContactMessages"
+            android:label="@string/title_activity_contact_messages"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.latihan_jumri.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.latihan_jumri.SendMessages"
+            android:label="@string/title_activity_send_messages" >
+        </activity>
+        <activity
+            android:name="com.example.latihan_jumri.ReplyMessages"
+            android:label="@string/title_activity_reply_messages" >
+        </activity>
+    </application>
+
+</manifest>

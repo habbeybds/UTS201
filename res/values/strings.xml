@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">latihan_jumri</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_contact_details">Contact Details</string>
+    <string name="title_activity_contact_add">Add Contact</string>
+    <string name="title_activity_contact_messages">ContactMessages</string>
+    <string name="title_activity_send_messages">SendMessages</string>
+    <string name="title_activity_reply_messages">ReplyMessages</string>
+
+</resources>
